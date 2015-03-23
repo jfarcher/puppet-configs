@@ -6,7 +6,7 @@ case $::operatingsystem{
 }
          package { "ntp":
 
-                        ensure => installed,
+                        ensure => latest,
         }
          file { "/etc/ntp.conf":
                 ensure => file,

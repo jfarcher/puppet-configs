@@ -12,7 +12,6 @@ case $operatingsystemrelease {
         "htop",
         "iotop",
         "iftop",
-        "screen",
         "unzip",
         "zsh",
         "tree",
